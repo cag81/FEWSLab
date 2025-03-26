@@ -1,12 +1,35 @@
-<!-- badges: start -->
+# FEWsLab Website 🌱💧⚡
 
-[![Render & Deploy
-Site](https://github.com/jhelvy/jhelvy_quarto/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/jhelvy/jhelvy_quarto/actions/workflows/main.yml)
-[![Netlify
-Status](https://api.netlify.com/api/v1/badges/e0340c5d-1307-44e4-bbeb-f1cf230d8fdc/deploy-status)](https://app.netlify.com/sites/jhelvy/deploys)
-<!-- badges: end -->
+Welcome to the source code for the **FEWsLab** website — a research lab focused on the **Food-Energy-Water Nexus**, climate adaptation, environmental systems modeling, and sustainability ethics.
 
-Source files for my [personal website](https://jhelvy.com/), built using {Quarto}(https://quarto.org/) and deployed
-with [netlify](https://www.netlify.com/).
+Visit the site here 👉 [https://fewslab.org](https://fewslab.org)
 
-Source code for my previous version built using the [{distill}](https://rstudio.github.io/distill/) package can be found [here](https://github.com/jhelvy/jhelvy_distill)
+---
+
+## 🔧 Tech Stack
+
+This website is built using:
+
+- [**Quarto**](https://quarto.org) – a scientific publishing system
+- `R` + `RMarkdown` for content and styling
+- Custom [SCSS themes](css/theme.scss) for a distinctive visual identity
+- Hosted on **GitHub Pages** or **Netlify**  
+- Custom domain: `fewslab.org`
+
+---
+
+## 📁 Repository Structure
+
+```plaintext
+.
+├── _quarto.yml           # Website configuration
+├── index.qmd             # Home page
+├── about.qmd             # About the lab
+├── lab.qmd               # Team members & overview
+├── teaching.qmd          # Courses and case competitions
+├── research.qmd          # Publications & media
+├── projects.qmd          # Current & past research projects
+├── css/                  # Custom styles (theme.scss)
+├── images/               # Logos, diagrams, photos
+├── .github/              # GitHub actions (if any)
+└── _site/                # Generated site after rendering
